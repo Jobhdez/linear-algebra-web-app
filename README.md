@@ -1,4 +1,11 @@
-# seminar
-Django backend for a potential React frontend
+# Linear Algebra web
 
-Backend consists of REST API, chat application, and an arxiv application where I have the models and some code to call the arxiv api to seed the database.
+This is a full stack web application written in JavaScript (ReactJS) and Python3 (Django).
+
+In this app the user can like/upvote research papers from the Arxiv, the user can chat about linear algebra, and search for research papers.
+
+## Run the application
+
+1. run the redis server
+2. run the Django server --- i.e., `python3 manage.py runserver`
+3. run the React App -- i.e., `npm start`
