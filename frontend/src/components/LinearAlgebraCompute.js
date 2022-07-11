@@ -21,7 +21,7 @@ function LinearAlgebraCompute() {
                 </label>
                 <input type='text' onChange={e => setExpr(e.target.value)}/>
                 <div>
-                    <h5>Vector: {post}</h5>
+                    <h5>{post}</h5>
                 </div>
                     
     
